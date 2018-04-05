@@ -1,0 +1,85 @@
+<scene>
+	<brightness>20</brightness>
+
+	<camera>
+		<fov>60</fov>
+		<depth>0</depth>
+		<origin>
+			<x>-100</x>
+			<y>20</y>
+			<z>-50</z>
+		</origin>
+		<angle>
+			<x>0</x>
+			<y>-20</y>
+			<z>0</z>
+		</angle>
+	</camera>
+
+	<object>
+		<type>box</type>
+		<origin>
+			<x>100</x>
+			<y>0</y>
+			<z>50</z>
+		</origin>
+		<material>
+			<color>
+				<r>255</r>
+				<g>255</g>
+				<b>255</b>
+			</color>
+		</material>
+		<size>
+			<x>40</x>
+			<y>40</y>
+			<z>40</z>
+		</size>
+		<transformations>
+			<rotation>
+				<x>60</x>
+				<y>45</y>
+				<z>20</z>
+			</rotation>
+		</transformations>
+		<physic>
+			<refraction_amount>0.9</refraction_amount>
+			<reflexion_amount>0</reflexion_amount>
+			<refraction_index>2.0</refraction_index>
+			<shininess>30</shininess>
+		</physic>
+	</object>
+
+	<object>
+		<type>sphere</type>
+		<origin>
+			<x>100</x>
+			<y>0</y>
+			<z>50</z>
+		</origin>
+		<material>
+			<color>
+				<r>250</r>
+				<g>150</g>
+				<b>150</b>
+			</color>
+		</material>
+		<radius>25</radius>
+	</object>
+
+	<light>
+		<type>orb</type>
+		<origin>
+			<x>-200</x>
+			<y>0</y>
+			<z>-200</z>
+		</origin>
+		<color>
+			<r>255</r>
+			<g>255</g>
+			<b>255</b>
+		</color>
+		<power>0.5</power>
+	</light>
+
+</scene>

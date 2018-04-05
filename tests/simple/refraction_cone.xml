@@ -1,0 +1,84 @@
+<scene>
+	<brightness>70</brightness>
+
+	<camera>
+		<fov>60</fov>
+		<depth>0</depth>
+		<origin>
+			<x>-100</x>
+			<y>20</y>
+			<z>0</z>
+		</origin>
+		<angle>
+			<x>0</x>
+			<y>0</y>
+			<z>0</z>
+		</angle>
+	</camera>
+
+	<object>
+		<type>cone</type>
+		<origin>
+			<x>400</x>
+			<y>0</y>
+			<z>0</z>
+		</origin>
+		<material>
+			<color>
+				<r>100</r>
+				<g>0</g>
+				<b>0</b>
+			</color>
+		</material>
+		<physic>
+			<refraction_amount>.9</refraction_amount>
+			<reflexion_amount>0</reflexion_amount>
+			<refraction_index>1.5</refraction_index>
+			<shininess>30</shininess>
+		</physic>
+		<angle>40</angle>
+	</object>
+
+	<object>
+		<type>plane</type>
+		<origin>
+			<x>0</x>
+			<y>-100</y>
+			<z>0</z>
+		</origin>
+		<normal>
+			<x>0</x>
+			<y>1</y>
+			<z>0</z>
+		</normal>
+		<material>
+			<color>
+				<r>70</r>
+				<g>70</g>
+				<b>70</b>
+			</color>
+		</material>
+		<physic>
+			<reflexion_amount>0</reflexion_amount>
+			<refraction_amount>0</refraction_amount>
+			<refraction_index>0</refraction_index>
+			<shininess>30</shininess>
+		</physic>
+	</object>
+
+	<light>
+		<type>orb</type>
+		<origin>
+			<x>0</x>
+			<y>100</y>
+			<z>0</z>
+		</origin>
+		<color>
+			<r>255</r>
+			<g>255</g>
+			<b>255</b>
+		</color>
+		<power>1</power>
+	</light>
+
+</scene>

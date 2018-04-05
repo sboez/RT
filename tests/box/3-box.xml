@@ -1,0 +1,62 @@
+<scene>
+	<brightness>20</brightness>
+
+	<camera>
+		<fov>60</fov>
+		<depth>0</depth>
+		<origin>
+			<x>-100</x>
+			<y>20</y>
+			<z>-50</z>
+		</origin>
+		<angle>
+			<x>0</x>
+			<y>-20</y>
+			<z>0</z>
+		</angle>
+	</camera>
+
+	<object>
+		<type>box</type>
+		<origin>
+			<x>100</x>
+			<y>0</y>
+			<z>50</z>
+		</origin>
+		<material>
+			<color>
+				<r>255</r>
+				<g>255</g>
+				<b>255</b>
+			</color>
+		</material>
+		<size>
+			<x>40</x>
+			<y>40</y>
+			<z>40</z>
+		</size>
+		<limit>
+			<local>
+				<origin><x>0</x><y>0</y><z>0</z></origin>
+				<normal><x>-1</x><y>0</y><z>0</z></normal>
+				<status>empty</status>
+			</local>
+		</limit>
+	</object>
+
+	<light>
+		<type>orb</type>
+		<origin>
+			<x>70</x>
+			<y>20</y>
+			<z>-50</z>
+		</origin>
+		<color>
+			<r>255</r>
+			<g>255</g>
+			<b>255</b>
+		</color>
+		<power>0.5</power>
+	</light>
+
+</scene>

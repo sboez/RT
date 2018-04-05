@@ -1,0 +1,85 @@
+<scene>
+	<brightness>20</brightness>
+
+	<camera>
+		<fov>60</fov>
+		<depth>0</depth>
+		<origin>
+			<x>-100</x>
+			<y>20</y>
+			<z>-50</z>
+		</origin>
+		<angle>
+			<x>0</x>
+			<y>-20</y>
+			<z>0</z>
+		</angle>
+	</camera>
+
+	<light>
+		<type>object</type>
+		<shape>
+			<type>sphere</type>
+			<origin>
+				<x>100</x>
+				<y>0</y>
+				<z>-30</z>
+			</origin>
+			<material>
+				<color>
+					<r>155</r>
+					<g>255</g>
+					<b>255</b>
+				</color>
+			</material>
+			<radius>10</radius>
+		</shape>
+		<power>0.5</power>
+	</light>
+
+	<light>
+		<type>object</type>
+		<shape>
+			<type>sphere</type>
+			<origin>
+				<x>100</x>
+				<y>50</y>
+				<z>10</z>
+			</origin>
+			<material>
+				<color>
+					<r>255</r>
+					<g>255</g>
+					<b>100</b>
+				</color>
+			</material>
+			<radius>10</radius>
+		</shape>
+		<power>0.5</power>
+	</light>
+
+	<object>
+		<type>sphere</type>
+		<origin>
+			<x>100</x>
+			<y>0</y>
+			<z>50</z>
+		</origin>
+		<material>
+			<color>
+				<r>255</r>
+				<g>255</g>
+				<b>255</b>
+			</color>
+		</material>
+		<physic>
+			<refraction_amount>0</refraction_amount>
+			<reflexion_amount>0</reflexion_amount>
+			<refraction_index>1.5</refraction_index>
+			<shininess>30</shininess>
+		</physic>
+		<radius>25</radius>
+	</object>
+
+
+</scene>

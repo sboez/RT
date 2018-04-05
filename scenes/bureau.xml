@@ -1,0 +1,82 @@
+<scene>
+	<brightness>5</brightness>
+
+	<camera>
+		<depth>0</depth>
+		<fov>60</fov>
+		<origin>
+			<x>0</x>
+			<y>0</y>
+			<z>0</z>
+		</origin>
+		<angle>
+			<x>0</x>
+			<y>0</y>
+			<z>0</z>
+		</angle>
+	</camera>
+
+	<object>
+		<type>plane</type>
+		<origin>
+			<x>22</x>
+			<y>6</y>
+			<z>-7</z>
+		</origin>
+		<material>
+			<texture>
+				<file>./files/bureau.bmp</file>
+				<mapping>planar</mapping>
+				<scale>0.45</scale>
+				<repeat>false</repeat>
+			</texture>
+		</material>
+		<normal>
+			<x>-1</x>
+			<y>0</y>
+			<z>0</z>
+		</normal>
+	</object>
+
+	<object>
+		<type>sphere</type>
+		<origin>
+			<x>20.3</x>
+			<y>-1.5</y>
+			<z>1</z>
+		</origin>
+		<material>
+			<color>
+				<r>255</r>
+				<g>255</g>
+				<b>255</b>
+			</color>
+			<texture>
+				<file>./files/wood.bmp</file>
+				<scale>1</scale>
+				<mapping>spherical</mapping>
+				<repeat>true</repeat>
+			</texture>
+			<normal_map>
+				<file>./files/wood_map.bmp</file>
+			</normal_map>
+		</material>
+		<radius>1.7</radius>
+	</object>
+
+	<light>
+		<type>orb</type>
+		<origin>
+			<x>13</x>
+			<y>-1.2</y>
+			<z>4.1</z>
+		</origin>
+		<color>
+			<r>230</r>
+			<g>180</g>
+			<b>240</b>
+		</color>
+		<power>0.4</power>
+	</light>
+
+</scene>
