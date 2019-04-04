@@ -1,6 +1,6 @@
 # RT
 
-5th graphic project of 42 (group)
+##### 5th graphic project of 42 (group)
 
 Your goal is to be able, using your program, to generate images
 synthesis using the Ray-Tracing method. These computer images represent a
